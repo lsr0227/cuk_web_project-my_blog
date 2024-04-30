@@ -1,3 +1,37 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
+# nodejs
+node_modules
+dist/*
+build/*
+*.log
+.DS_Store
+
+
+#출처: https://redballs.tistory.com/entry/VSCode-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Github-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%95%98%EA%B8%B0
+#-------------------------------------------------------------------------------------
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
